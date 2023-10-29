@@ -1,0 +1,199 @@
+
+/* Responsive Website */
+
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+
+
+#cards .col-md-7 h5{
+    margin-top: 10%;
+}
+
+#card .col-md-7 button{
+    margin-left: -3%;
+    font-size: .833rem;
+    margin-bottom: 7%;
+}
+
+#card .col-md-2{
+    width: 45%;
+}
+#cards{
+    margin-bottom: 20%;
+}
+
+#cards hr{
+    margin: 15% 0;
+}
+    .nav{
+        display: block;
+    }
+ html,body{
+     width: fit-content;
+ }
+#productpage .row .col-md-5{
+padding-top: 7%;
+}
+#purchase-btn{
+    margin-top: -5%;
+}
+
+.top-header{
+height: 8%;
+
+}
+
+#navbarNav{
+    border: 1px solid rgb(255, 196, 0);
+    padding: 0rem !important;
+
+}
+
+.top-header .col-md-5 h6{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0rem 15px;
+    float: right;
+    margin-top: -2.2rem;
+}
+
+.top-header .col-md-7 ul {
+    margin-bottom: 0rem !important;
+}
+.top-header .col-md-7 ul li a{
+    font-size: 15px !important;
+    font-weight: 300;
+
+}
+.top-header .col-md-7 ul li {
+    padding: 0 6px;
+}
+#top-logo .col-md-2 nav{
+    padding: 0.4rem !important;
+    
+}
+
+#top-logo .col-md-2 nav a img{
+    height: 35px;
+}
+
+#top-logo{
+    margin-top: 0.5rem !important;
+}
+
+.circle{
+    margin: 0.3rem;
+
+}
+sup{
+    right: 77px !important;
+    margin-top: 4px !important;
+}
+#icons{
+    right: 7rem !important;
+}
+
+#searchbar .input-group{
+width: 60%;
+position: absolute;
+margin-top: -3rem !important;
+right: 0.2rem !important;
+}
+
+.navbar-toggler{
+    margin-top: -5%;
+    width: 100%;
+}
+
+#float{
+    right: 1rem;
+}
+
+.cardItem h2{
+    font-size: 1.65rem !important;
+}
+
+.cardItem .card{
+margin-bottom: 5%;
+}
+
+footer .col-md-3{
+    margin-bottom: 10%;
+}
+
+#footerInfo{
+    padding-top: 5px;
+    font-size: 65.5%;
+    font-weight: 600;
+    margin: 0;
+    margin-right: 15px;
+
+}
+
+#copyright{
+    font-size: 85%;
+    font-weight: 500;
+}
+
+#footer .container{
+display: inline;
+}
+
+#brands{
+    margin-left: 2%;
+}
+
+#appStore{
+    margin-left: 3%;
+
+}
+
+/* InnerPage starts */
+
+#productpage .row .col-md-5{
+    margin-bottom: 3rem;
+}
+
+#productpage .row .col-md-7 .input-group{
+    width: 40%;
+}
+
+#contact .row .col-md-10{
+  position: absolute;
+  left: 22%;
+  top: -18%;
+}
+
+#contact .review-rating{
+    position: absolute;
+padding-top: 19%;
+left: 29%;
+}
+
+#relatedProducts .col-md-3{
+    margin-bottom: 30%;
+}
+    
+
+    
+}
+
+
+
+
+
+
+
+/* Code to remove arrows in input Type = Number */
+
+/* For Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
